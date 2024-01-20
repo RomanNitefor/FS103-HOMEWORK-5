@@ -768,7 +768,7 @@ li {
 .modal-field {
   margin-bottom: 8px;
 }
-.modal-textarea {
+.modal-text-area {
   margin-bottom: 16px;
 }
 .modal-checkbox {
@@ -781,8 +781,6 @@ li {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
 }
 
 .check-text a {
@@ -797,6 +795,8 @@ li {
 
 .check-span {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
