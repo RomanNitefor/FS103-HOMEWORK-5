@@ -581,7 +581,19 @@ li {
   background: #2e2f42;
   padding: 16px 8px;
   flex-shrink: 0;
+  width: 264px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
 }
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
 .footer-submit-btn {
   color: #fff;
   text-align: center;
@@ -691,6 +703,7 @@ li {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   outline: transparent;
+  margin-bottom: 8px;
 }
 
 .modal-icon {
@@ -750,13 +763,14 @@ li {
 
 .modal-input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-field {
+  margin-bottom: 8px;
+}
+.modal-textarea {
   margin-bottom: 16px;
 }
-
 .modal-checkbox {
   margin-bottom: 24px;
 }
